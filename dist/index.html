@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="css/app.min.css?v=1.0" />
+    <link rel="stylesheet" href="css/app.min.css?v=1.4" />
 </head>
 <body>
 
@@ -383,21 +383,21 @@
                         Have any questions?
                     </div>
 
-                    <form action="#" class="contacts-form__wrap">
+                    <form action="send.php" class="contacts-form__wrap ajax">
 
                         <div class="contacts-form__row">
                             <div class="labled-input">
                                 <div class="labled-input__label labled-input__label-requried"> 
                                     Name
                                 </div>
-                                <input type="text" name="" id="" class="labled-input__input" placeholder="Input your name">
+                                <input type="text" name="name" id="" class="labled-input__input" placeholder="Input your name" required="required">
                             </div>
                 
                             <div class="labled-input">
                                 <div class="labled-input__label labled-input__label-requried"> 
                                     Email
                                 </div>
-                                <input type="email" name="" id="" class="labled-input__input" placeholder="Input your email">
+                                <input type="email" name="email" id="" class="labled-input__input" placeholder="Input your email" required="required">
                             </div>
                         </div>
 
@@ -539,6 +539,6 @@
 </div>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="js/app.min.js"></script>
+    <script src="js/app.min.js?v=1.0"></script>
 </body>
 </html>

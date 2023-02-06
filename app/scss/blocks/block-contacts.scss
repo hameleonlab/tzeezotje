@@ -26,6 +26,8 @@
     @media (max-width: 960px) {
         padding-top: 60px;
         padding-bottom: 40px;
+        max-width: 100vw;
+        overflow: hidden;
 
         &__grid {
             display: grid;
@@ -35,7 +37,13 @@
                 'map' / 1fr;
         }
 
+        &__form {
+            max-width: calc(100vw - 30px * 2);
+        }
+
         &__map {
+            max-width: calc(100vw - 30px * 2);
+
             & > iframe {
                 max-height: 350px;
             }
