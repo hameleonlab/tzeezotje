@@ -1,0 +1,41 @@
+{
+	"name": "mebel",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Hameleonlab",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.15.4",
+		"@babel/core": "^7.15.5",
+		"@babel/preset-env": "^7.15.6",
+		"babel-loader": "^8.2.2",
+		"babel-plugin-module-resolver": "^4.1.0",
+		"babel-plugin-root-import": "^6.6.0",
+		"bootstrap": "^4.6.0",
+		"browser-sync": "^2.27.5",
+		"browsersync-ssi": "^0.2.4",
+		"del": "^6.0.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-newer": "^1.4.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-rsync": "0.0.9",
+		"gulp-sass": "^4.1.1",
+		"webpack-stream": "^6.1.2"
+	},
+	"dependencies": {
+		"@babel/polyfill": "^7.12.1",
+		"glslify": "^7.1.1",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-sass-glob": "^1.1.0",
+		"gulp-svg-sprite": "^1.5.0",
+		"gulp-typescript": "^6.0.0-alpha.1",
+		"three": "^0.127.0",
+		"typescript": "^4.4.3"
+	}
+}

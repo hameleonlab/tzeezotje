@@ -1,0 +1,100 @@
+.block-dishes {
+    padding-top: 109px;
+    padding-bottom: 80px;
+
+    // .block-dishes__list
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    // .block-dishes__item
+    &__item {
+        display: flex;
+        gap: 30px;
+
+        &:nth-child(2n) {
+            flex-direction: row-reverse;
+        }
+    }
+    // .block-dishes__text
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 0 0 470px;
+    }
+    // .block-dishes__title
+    &__title {
+        position: relative;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 88px;
+        margin-bottom: 20px;
+
+        &::before {
+            position: absolute;
+            bottom: -4px;
+            left: -54px;
+            content: '';
+            height: 2px;
+            width: 108px;
+            background: $secondary;
+        }
+    }
+    // .block-dishes__desc
+    &__desc {
+        font-size: 16px;
+        line-height: 32px;
+        color: $secondary-text-light;
+    }
+    // .block-dishes__img
+    &__img {
+    }
+
+    @media (max-width: 960px) {
+        padding-top: 60px;
+        padding-bottom: 40px;
+
+        // .block-dishes__text
+        &__item {
+            gap: 20px;
+        }
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex: 0 0 calc((100% - 20px) / 2);
+        }
+
+        // .block-dishes__title
+        &__title {
+            font-size: 28px;
+            line-height: 48px;
+            margin-bottom: 20px;
+
+            &::before {
+                position: absolute;
+                bottom: -4px;
+                left: -54px;
+                content: '';
+                height: 2px;
+                width: 108px;
+                background: $secondary;
+            }
+        }
+        // .block-dishes__desc
+        &__desc {
+            font-size: 16px;
+            line-height: 32px;
+            color: $secondary-text-light;
+        }
+    }
+
+    @media (max-width: 650px) {
+        &__item {
+            flex-direction: column !important;
+        }
+    }
+}

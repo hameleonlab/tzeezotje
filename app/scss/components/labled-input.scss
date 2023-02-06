@@ -1,0 +1,61 @@
+.labled-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+
+    // .labled-input__label
+    &__label {
+        font-size: 16px;
+        line-height: 31px;
+    }
+
+    // .labled-input__input
+    &__input {
+        border: 1px solid $border;
+        padding: 12px 15px;
+ 
+        &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+            color:    $secondary-text-light;
+        }
+        &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+            color:    $secondary-text-light;
+            opacity:  1;
+        }
+        &::-moz-placeholder { /* Mozilla Firefox 19+ */
+            color:    $secondary-text-light;
+            opacity:  1;
+        }
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color:    $secondary-text-light;
+        }
+        &::-ms-input-placeholder { /* Microsoft Edge */
+            color:    $secondary-text-light;
+        }
+        &::placeholder { /* Most modern browsers support this now. */
+            color:    $secondary-text-light;
+        }
+    }
+
+    input.labled-input__input {
+        height: 80px;
+    }
+
+    textarea.labled-input__input {
+        height: 125px;
+        padding: 29px 15px;
+    }
+
+    @media (max-width: 1023px) {
+        gap: 5px;
+
+        input.labled-input__input {
+            height: 40px;
+        }
+    
+        textarea.labled-input__input {
+            height: 80px;
+            padding: 8px 15px;
+        }
+    }
+}

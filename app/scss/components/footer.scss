@@ -1,0 +1,35 @@
+.footer {
+    padding-bottom: 526px;
+
+    // .footer__wrap
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        align-items: center;
+    }
+    // .footer__logo
+    &__logo {
+    }
+    // .footer__social
+    &__social {
+        display: flex;
+        gap: 25px;
+
+        &.social > a {
+            color: $main-text;
+            border: 1px solid $main-text;
+        }
+    }
+
+    @media (max-width: 1023px) {
+    }
+
+    @media (max-width: 960px) {
+        padding-bottom: 250px;
+
+        &__wrap {
+            flex-direction: column;
+        }
+    }
+}

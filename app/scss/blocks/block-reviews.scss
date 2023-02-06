@@ -1,0 +1,10 @@
+.block-reviews {
+    background: $primary;
+    padding-top: 219px;
+    padding-bottom: 220px;
+
+    @media (max-width: 960px) {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+}

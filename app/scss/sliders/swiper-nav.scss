@@ -1,0 +1,11 @@
+.swiper-nav {
+    .swiper-button-prev,
+    .swiper-button-next {
+        transition: .5s ease;
+    }
+
+    .swiper-button-disabled {
+        opacity: 1;
+        pointer-events: all;
+    }    
+}

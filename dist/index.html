@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tzeezotje</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/app.min.css?v=1.0" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <div class="header__top">
+                    <div class="header__logo">
+                        <a href="/">
+                            <img src="img/tzeezotje-logo.svg" alt="">
+                        </a>                    
+                    </div>
+                    <ul class="header__menu">
+                        <li><a data-goto=".header" href="#">À la carte</a></li>
+                        <li><a data-goto=".block-menu" href="#">Wijnkaart</a></li>
+                        <li><a data-goto=".block-dishes" href="#">Lunchmenu</a></li>
+                        <li><a data-goto=".block-contacts" href="#">Contact</a></li>
+                    </ul>
+                    <div class="header__actions">
+                        <a href="tel:+3292825725" class="header__phone"><span>+32 9 282 57 25</span></a>
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="header__toptext">
+                    <div class="header__schedule">
+                        OPEN EVERYDAY&nbsp;&nbsp;6AM - 9PM
+                    </div>
+                    <h1 class="header__tagline">
+                        A bad day with lunch is better than a good day without it.
+                    </h1>
+                    <div class="header__row">
+                        <div class="btn header__reserve">Reserve a table</div>
+                        <div class="social header__social">
+                            <a href="#">Fb</a>
+                            <a href="#">lg</a>
+                            <a href="#">Tw</a>
+                            <a href="#">Yt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="block block-menu">
+        <div class="container">
+            <div class="block-menu__wrap">
+
+                <div class="block-menu__list menu-list">
+                    <div class="menu-list__item">
+                        <div class="menu-list__day">
+                            Woensdag 12/01
+                        </div>
+                        <div class="menu-list__dishes">
+                            <div class="menu-list__dish">
+                                Salade met Serrano
+                            </div>
+                            <div class="menu-list__dish-separate"></div>
+                            <div class="menu-list__dish">
+                                Steak Tartaar
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-list__item">
+                        <div class="menu-list__day">
+                            Donderdag 13/01
+                        </div>
+                        <div class="menu-list__dishes">
+                            <div class="menu-list__dish">
+                                Toast Roquefort
+                            </div>
+                            <div class="menu-list__dish-separate"></div>
+                            <div class="menu-list__dish">
+                                Penne met Kip en Prei
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-list__item">
+                        <div class="menu-list__day">
+                            Vrijdag 14/01
+                        </div>
+                        <div class="menu-list__dishes">
+                            <div class="menu-list__dish">
+                                Verrassing van de Chef
+                            </div>
+                            <div class="menu-list__dish-separate"></div>
+                            <div class="menu-list__dish">
+                                Penne met Kip en Prei
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-list__item">
+                        <div class="menu-list__day">
+                            Vrijdag 15/01
+                        </div>
+                        <div class="menu-list__dishes">
+                            <div class="menu-list__dish">
+                                Verrassing van de Chef
+                            </div>
+                            <div class="menu-list__dish-separate"></div>
+                            <div class="menu-list__dish">
+                                Penne met Kip en Prei
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-list__item">
+                        <div class="menu-list__day">
+                            Vrijdag 16/01
+                        </div>
+                        <div class="menu-list__dishes">
+                            <div class="menu-list__dish">
+                                Verrassing van de Chef
+                            </div>
+                            <div class="menu-list__dish-separate"></div>
+                            <div class="menu-list__dish">
+                                Penne met Kip en Prei
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="block-menu__imgs">
+                    <div class="block-menu__first-img">
+                        <img src="img/menu-img-first.jpg" alt="">
+                    </div>
+                    <div class="block-menu__rectangle"></div>
+                    <div class="block-menu__second-img">
+                        <img src="img/menu-img-second.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>  
+    
+    
+    <div class="block block-reviews">
+        <div class="container">
+
+            <div class="swiper reviewsSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide reviewsSwiper__slide">
+                        <div class="reviewsSwiper__title">
+                            Goede service, lekker eten, toffe ambiance
+                        </div>
+                        <div class="reviewsSwiper__desc">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                        </div>
+                        <div class="reviewsSwiper__name">
+                            ALAIN HEYNDRICKX  
+                        </div>
+                    </div>
+                    <div class="swiper-slide reviewsSwiper__slide">
+                        <div class="reviewsSwiper__title">
+                            Goede service, lekker eten, toffe ambiance
+                        </div>
+                        <div class="reviewsSwiper__desc">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                        </div>
+                        <div class="reviewsSwiper__name">
+                            ALAIN HEYNDRICKX  
+                        </div>
+                    </div>
+                    <div class="swiper-slide reviewsSwiper__slide">
+                        <div class="reviewsSwiper__title">
+                            Goede service, lekker eten, toffe ambiance
+                        </div>
+                        <div class="reviewsSwiper__desc">
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+                        </div>
+                        <div class="reviewsSwiper__name">
+                            ALAIN HEYNDRICKX  
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-nav-wrap">
+                    <div class="swiper-nav">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="block block-dishes">
+        <div class="container">
+
+            <div class="block-dishes__list">
+
+                <div class="block-dishes__item">
+                    <div class="block-dishes__text">
+                        <div class="block-dishes__title">
+                            LEKKER ETEN
+                        </div>
+                        <div class="block-dishes__desc">
+                            Eten gaat niet over indruk maken op mensen. Het gaat erom dat ze zich op hun gemak voelen. Dat is onze filosofie, goed eten in een goede sfeer.
+                        </div>
+                    </div>
+                    <div class="block-dishes__img">
+                        <img src="img/dishes/lekker-eten.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="block-dishes__item">
+                    <div class="block-dishes__text">
+                        <div class="block-dishes__title">
+                            TOFFE AMBIANCE
+                        </div>
+                        <div class="block-dishes__desc">
+                            Het creëren van de juiste sfeer is zeer belangrijk voor ons. We nemen onze tijd om te zorgen dat alle elementen bijdragen aan de juiste setting.
+                        </div>
+                    </div>
+                    <div class="block-dishes__img">
+                        <img src="img/dishes/toffe-ambiance.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="block-dishes__item">
+                    <div class="block-dishes__text">
+                        <div class="block-dishes__title">
+                            LEKKERE COCKTAILS
+                        </div>
+                        <div class="block-dishes__desc">
+                            Ons doel is simpel: een gastvrije plek bieden waar u kunt genieten van een onvergetelijke cocktail, een goed gesprek en lekker eten.
+                        </div>
+                    </div>
+                    <div class="block-dishes__img">
+                        <img src="img/dishes/lekkere-cocktails.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="block block-photos">
+        <div class="container">
+
+            <div class="photosSwiper">
+                <div class="block-photos__top">
+                    <div class="block-photos__text">
+                        <div class="block-photos__title">
+                            Sfeerfoto's
+                        </div>
+                        <div class="block-photos__desc">
+                            De beste manier om de sfeer te ervaren is eens langskomen.<br/>
+                            In tussentijd hebben we hier alvast wat foto’s voor je klaar.
+                        </div>
+                    </div>
+                    <div class="block-photos__nav swiper-nav-wrap">
+                        <div class="swiper-nav">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block-photos__swiper">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide photosSwiper__slide">
+                                <img src="img/photos/'t Zeezotje-3.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide photosSwiper__slide">
+                                <img src="img/photos/'t Zeezotje-4.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide photosSwiper__slide">
+                                <img src="img/photos/'t Zeezotje-6.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide photosSwiper__slide">
+                                <img src="img/photos/'t Zeezotje-3.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide photosSwiper__slide">
+                                <img src="img/photos/'t Zeezotje-4.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide photosSwiper__slide">
+                                <img src="img/photos/'t Zeezotje-6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="block block-contacts">
+        <div class="container">
+
+            <div class="block-contacts__grid">
+                <div class="block-contacts__data contacts-data">
+                    <div class="block__title contacts-data__caption">
+                        Contacts
+                    </div>
+                    <div class="contacts-data__list">
+                        <div class="contacts-data__item">
+                            <div class="contacts-data__icon">
+                                <img src="img/icons/phone_fff_24x24.svg" alt="">
+                            </div>
+                            <div class="contacts-data__text">
+                                <div class="contacts-data__label">
+                                    Phone Number
+                                </div>
+                                <div class="contacts-data__val">
+                                    <a href="tel:+3292825725">+32 9 282 57 25</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contacts-data__item">
+                            <div class="contacts-data__icon">
+                                <img src="img/icons/email_fff_24x24.svg" alt="">
+                            </div>
+                            <div class="contacts-data__text">
+                                <div class="contacts-data__label">
+                                    Email
+                                </div>
+                                <div class="contacts-data__val">
+                                    <a href="mailto:info@email.com">info@email.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contacts-data__item">
+                            <div class="contacts-data__icon">
+                                <img src="img/icons/schedule_fff_24x24.svg" alt="">
+                            </div>
+                            <div class="contacts-data__text">
+                                <div class="contacts-data__label">
+                                    Opening Hours
+                                </div>
+                                <div class="contacts-data__val">
+                                    Everyday from&nbsp;6&nbsp;AM&nbsp;-&nbsp;9&nbsp;PM
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contacts-data__item">
+                            <div class="contacts-data__icon">
+                                <img src="img/icons/place_fff_24x24.svg" alt="">
+                            </div>
+                            <div class="contacts-data__text">
+                                <div class="contacts-data__label">
+                                    Map Street
+                                </div>
+                                <div class="contacts-data__val">
+                                    Jl. Raya Surabaya 2787
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="block-contacts__form contacts-form">
+                    <div class="block__title contacts-form__caption">
+                        Have any questions?
+                    </div>
+
+                    <form action="#" class="contacts-form__wrap">
+
+                        <div class="contacts-form__row">
+                            <div class="labled-input">
+                                <div class="labled-input__label labled-input__label-requried"> 
+                                    Name
+                                </div>
+                                <input type="text" name="" id="" class="labled-input__input" placeholder="Input your name">
+                            </div>
+                
+                            <div class="labled-input">
+                                <div class="labled-input__label labled-input__label-requried"> 
+                                    Email
+                                </div>
+                                <input type="email" name="" id="" class="labled-input__input" placeholder="Input your email">
+                            </div>
+                        </div>
+
+                        <div class="labled-input">
+                            <div class="labled-input__label"> 
+                                Speciale Request
+                            </div>
+                            <textarea class="labled-input__input" name="comment" id="" cols="30" rows="10" placeholder="Input your special request"></textarea>
+                        </div>
+        
+                        <div class="contacts-form__actions">
+                            <input class="btn" type="submit" value="Send">
+                        </div>
+                    </form>
+
+                </div>
+    
+                <div class="block-contacts__map">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac1aa332055c5800dcd26761745d3ff8202c1bd5453fbd67c186bde1f7160d246&amp;width=100%25&amp;height=547&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </div>
+
+        </div>
+    </div>    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__logo">
+                    <img src="img/tzeezotje-logo-color.svg" alt="">
+                </div>
+                <div class="social footer__social">
+                    <a href="#">fb</a>
+                    <a href="#">lg</a>
+                    <a href="#">Tw</a>
+                    <a href="#">Yt</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup popup-get-service">
+    <div class="popup__wrap">
+        <div class="popup__title">Reserve a table</div>
+        <div class="popup__close"></div>
+        <div class="popup__content">
+            
+            <form action="send.php" class="popup__form ajax">
+
+                <div class="popup__row">
+                    <div class="labled-input">
+                        <div class="labled-input__label labled-input__label-requried"> 
+                            Name
+                        </div>
+                        <input type="text" name="name" id="" class="labled-input__input" required>
+                    </div>
+        
+                    <div class="labled-input">
+                        <div class="labled-input__label labled-input__label-requried"> 
+                            Email
+                        </div>
+                        <input type="email" name="email" id="" class="labled-input__input" required>
+                    </div>
+                </div>
+                
+                <div class="labled-input ">
+                    <div class="labled-input__label"> 
+                        Speciale Request
+                    </div>
+                    <textarea class="labled-input__input" name="comment" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="popup__form-actions">
+                    <input class="btn" type="submit" value="Reserve">
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="popup popup-get-service-question">
+    <div class="popup__wrap">
+        <div class="h3 popup__title">Задать вопрос</div>
+        <div class="popup__close"></div>
+        <div class="popup__content">
+            
+            <form action="#" class="popup__form">
+                <div class="labled-input block-buyer__name">
+                    <div class="labled-input__label labled-input__label-requried"> 
+                        ФИО
+                    </div>
+                    <input type="text" name="" id="" class="labled-input__input">
+                </div>
+    
+                <div class="labled-input block-buyer__name">
+                    <div class="labled-input__label labled-input__label-requried"> 
+                        Телефон
+                    </div>
+                    <input type="text" name="" id="" class="labled-input__input">
+                </div>
+    
+                <div class="labled-input block-buyer__name">
+                    <div class="labled-input__label labled-input__label-requried"> 
+                        Email
+                    </div>
+                    <input type="email" name="" id="" class="labled-input__input">
+                </div>
+
+                <div class="labled-input labled-input_accent block-buyer__name">
+                    <div class="labled-input__label labled-input__label-requried"> 
+                        Услуга
+                    </div>
+                    <input type="text" name="" id="" class="labled-input__input" value="Сборка и установка мебели" readonly="readonly">
+                </div>
+    
+                <div class="labled-input block-buyer__name">
+                    <div class="labled-input__label"> 
+                        Комментарий
+                    </div>
+                    <textarea class="labled-input__input" name="comment" id="" cols="30" rows="10"></textarea>
+                </div>
+    
+                <div class="chb-accept block-buyer__accept">
+                    <input type="checkbox" id="ch-accept_41" name="buyer-accept" value="41">
+                    <label class="chb-accept__title" for="ch-accept_41">
+                        <span>Я даю согласие на <a href="#">обработку персональных данных</a></span>
+                    </label>
+                </div>
+
+                <div class="popup__form-actions">
+                    <input class="btn" type="submit" value="Отправить">
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+</html>

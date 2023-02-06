@@ -1,0 +1,98 @@
+<div class="popup popup-get-service">
+    <div class="popup__wrap">
+        <div class="popup__title">Reserve a table</div>
+        <div class="popup__close"></div>
+        <div class="popup__content">
+            
+            <form action="send.php" class="popup__form ajax">
+
+                <div class="popup__row">
+                    <div class="labled-input">
+                        <div class="labled-input__label labled-input__label-requried"> 
+                            Name
+                        </div>
+                        <input type="text" name="name" id="" class="labled-input__input" required>
+                    </div>
+        
+                    <div class="labled-input">
+                        <div class="labled-input__label labled-input__label-requried"> 
+                            Email
+                        </div>
+                        <input type="email" name="email" id="" class="labled-input__input" required>
+                    </div>
+                </div>
+                
+                <div class="labled-input ">
+                    <div class="labled-input__label"> 
+                        Speciale Request
+                    </div>
+                    <textarea class="labled-input__input" name="comment" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="popup__form-actions">
+                    <input class="btn" type="submit" value="Reserve">
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="popup popup-get-service-question">
+    <div class="popup__wrap">
+        <div class="h3 popup__title">Задать вопрос</div>
+        <div class="popup__close"></div>
+        <div class="popup__content">
+            
+            <form action="#" class="popup__form">
+                <div class="labled-input block-buyer__name">
+                    <div class="labled-input__label labled-input__label-requried"> 
+                        ФИО
+                    </div>
+                    <input type="text" name="" id="" class="labled-input__input">
+                </div>
+    
+                <div class="labled-input block-buyer__name">
+                    <div class="labled-input__label labled-input__label-requried"> 
+                        Телефон
+                    </div>
+                    <input type="text" name="" id="" class="labled-input__input">
+                </div>
+    
+                <div class="labled-input block-buyer__name">
+                    <div class="labled-input__label labled-input__label-requried"> 
+                        Email
+                    </div>
+                    <input type="email" name="" id="" class="labled-input__input">
+                </div>
+
+                <div class="labled-input labled-input_accent block-buyer__name">
+                    <div class="labled-input__label labled-input__label-requried"> 
+                        Услуга
+                    </div>
+                    <input type="text" name="" id="" class="labled-input__input" value="Сборка и установка мебели" readonly="readonly">
+                </div>
+    
+                <div class="labled-input block-buyer__name">
+                    <div class="labled-input__label"> 
+                        Комментарий
+                    </div>
+                    <textarea class="labled-input__input" name="comment" id="" cols="30" rows="10"></textarea>
+                </div>
+    
+                <div class="chb-accept block-buyer__accept">
+                    <input type="checkbox" id="ch-accept_41" name="buyer-accept" value="41">
+                    <label class="chb-accept__title" for="ch-accept_41">
+                        <span>Я даю согласие на <a href="#">обработку персональных данных</a></span>
+                    </label>
+                </div>
+
+                <div class="popup__form-actions">
+                    <input class="btn" type="submit" value="Отправить">
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

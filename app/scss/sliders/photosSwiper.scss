@@ -1,0 +1,93 @@
+.photosSwiper {
+
+    // .photosSwiper__slide
+    &__slide {
+        width: 970px;
+        aspect-ratio: 970 / 646;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .swiper {
+        overflow: initial;
+    }
+
+    .swiper-wrapper {
+        
+    }
+
+    .swiper-nav-wrap {
+        display: flex;
+        padding-top: 19px;
+
+        .swiper-nav {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            width: 170px;
+
+            .swiper-button-prev,
+            .swiper-button-next {
+                position: relative;
+                left: initial;
+                right: initial;
+                top: initial;
+                bottom: initial;
+                height: 70px;
+                width: 70px;
+            }
+            
+            .swiper-button-prev {
+                background: url(../img/icons/arrow-prev.svg) center no-repeat;
+
+                &.swiper-button-disabled {
+                    background: url(../img/icons/arrow-prev-disable.svg) center no-repeat;
+                }
+            }
+
+            .swiper-button-next {
+                background: url(../img/icons/arrow-next.svg) center no-repeat;
+
+                &.swiper-button-disabled {
+                    background: url(../img/icons/arrow-next-disable.svg) center no-repeat;
+                }
+            }
+        }
+
+        .swiper-pagination {
+            bottom: -43px;
+        }
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    @media (max-width: 960px) {
+        padding-bottom: 30px;
+
+        &__slide {
+            width: 90%;
+            aspect-ratio: 970 / 846;
+    
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .swiper-nav-wrap {
+            display: none;
+        }
+
+        .swiper-pagination {
+            display: flex;
+        }
+    
+    }
+}

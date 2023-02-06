@@ -1,0 +1,34 @@
+@import "normalize";
+@import "config";
+
+body {
+    background: $background;
+    color: $main-text;
+    font-family: 'Poppins', sans-serif;
+    background: $background;
+}
+
+.container {
+    position: relative;
+    max-width: #{$maxWidth + px};
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    @media (max-width: 767px) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.centered {
+    text-align: center;
+}
+
+@import 'pages/**/*';
+@import 'sections/**/*';
+@import 'components/**/*';
+@import 'blocks/**/*';
+@import 'sliders/**/*';
+@import 'popups/**/*';

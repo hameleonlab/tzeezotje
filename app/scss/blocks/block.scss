@@ -1,0 +1,17 @@
+.block {
+    // .block__title
+    &__title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 88px;
+        margin-bottom: 35px;
+    }
+
+    @media (max-width: 960px) {
+        &__title {
+            font-size: 36px;
+            line-height: 60px;
+            margin-bottom: 28px;
+        }
+    }
+}

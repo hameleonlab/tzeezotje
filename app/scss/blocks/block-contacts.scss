@@ -1,0 +1,44 @@
+.block-contacts {
+    padding-top: 101px;
+    padding-bottom: 40px;
+
+    // .block-contacts__grid
+    &__grid {
+        display: grid;
+        grid-template: 
+            'data form'
+            'map map' / 450px auto;
+        gap: 50px;
+    }
+    // .block-contacts__data
+    &__data {
+        grid-area: data;
+    }
+    // .block-contacts__form
+    &__form {
+        grid-area: form;
+    }
+    // .block-contacts__map
+    &__map {
+        grid-area: map;
+    }
+
+    @media (max-width: 960px) {
+        padding-top: 60px;
+        padding-bottom: 40px;
+
+        &__grid {
+            display: grid;
+            grid-template: 
+                'data'
+                'form'
+                'map' / 1fr;
+        }
+
+        &__map {
+            & > iframe {
+                max-height: 350px;
+            }
+        }
+    }
+}
